@@ -1,0 +1,2 @@
+# Automated_Powercycle_Test
+基于树莓派+小米插座Wifi版的自动化开关机测试脚本
