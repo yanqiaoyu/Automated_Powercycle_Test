@@ -6,6 +6,9 @@
 
 ## 如何使用？
 1.首先你需要一个树莓派(需要无线网卡)， 一个小米插座Wi-Fi版，以及一个用以配置小米插座的网关
+
 2.配置好插座，并让树莓派与插座处于同一内网下
+
 3.在你的树莓派上安装相关环境，并获取你的小米设备的Token，具体操作过程可以参考我的一篇Blog: [Directly control my XiaoMi Adapter(Wi-Fi Edition) without Mi Home App](https://github.com/yanqiaoyu/Sth-Worth-Recording/blob/master/directly-control-my-mi-plug-wi-fi-edition-without-mi-home-app.md)
+
 4.
