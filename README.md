@@ -11,4 +11,23 @@
 
 3.在你的树莓派上安装相关环境，并获取你的小米设备的Token，具体操作过程可以参考我的一篇Blog: [Directly control my XiaoMi Adapter(Wi-Fi Edition) without Mi Home App](https://github.com/yanqiaoyu/Sth-Worth-Recording/blob/master/directly-control-my-mi-plug-wi-fi-edition-without-mi-home-app.md)
 
-4.
+4.下载此脚本至你的树莓派上
+```shell
+git clone https://github.com/yanqiaoyu/Automated_Powercycle_Test.git
+```
+
+5.根据需要修改脚本中配置
+```python
+#插座的IP
+PlugIP = '192.168.xxx.xxx'
+#你插座配置好之后的Token，注意如果重新配置了插座，会导致Token变化
+PlugToken = 'YourToken'
+#待测样机的IP，用以开机之后检查连通性
+DutIP = 'xxx.xxx.xxx.xxx'
+#开关机测试一共 需要的次数
+TestCount = 100
+```
+6.运行脚本
+```shell
+python3 powercycle.py
+```
